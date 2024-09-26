@@ -67,9 +67,8 @@ Se desarrollaron tres KPI's principales para medir diferentes aspectos del acces
 **Objetivo**: Medir el porcentaje de hogares con acceso a Internet por año y trimestre.
 
 **Cálculo**:
-\[
-\text{Tasa de Penetración} = \frac{\text{Acceso a Internet}}{\text{Hogares Totales}} \times 100
-\]
+
+Tasa de Penetración = (Acceso a Internet / Hogares Totales) * 100
 
 **Visualización**: La tasa de penetración se visualizó a través de gráficos de líneas para observar su evolución a lo largo de los años.
 
@@ -79,9 +78,8 @@ Se desarrollaron tres KPI's principales para medir diferentes aspectos del acces
 **Objetivo**: Evaluar el crecimiento en el acceso a Internet para el próximo trimestre en relación al trimestre actual.
 
 **Cálculo**:
-\[
-\text{Crecimiento en Acceso} = \frac{\text{Nuevo Acceso} - \text{Acceso Actual}}{\text{Acceso Actual}} \times 100
-\]
+
+Crecimiento en Acceso = ((Nuevo Acceso - Acceso Actual) / Acceso Actual) * 100
 
 **Visualización**: Se generaron gráficos de barras para comparar el crecimiento por año y trimestre, destacando picos y tendencias.
 
@@ -96,9 +94,7 @@ Se desarrollaron tres KPI's principales para medir diferentes aspectos del acces
 - Se calculó una **Velocidad Promedio Ponderada** utilizando los accesos por rango y su respectiva ponderación.
 - Finalmente, se midió el crecimiento porcentual de la velocidad promedio.
 
-\[
-\text{Velocidad Promedio} = \frac{\sum(\text{Accesos} \times \text{Velocidad})}{\text{Total de Accesos}}
-\]
+Aumento de Velocidad = (Velocidad Promedio del Trimestre Actual / Velocidad Promedio del Trimestre Anterior) * 100
 
 **Visualización**: Gráficos de líneas para mostrar el aumento en la velocidad promedio a lo largo de los trimestres.
 
@@ -106,7 +102,7 @@ Se desarrollaron tres KPI's principales para medir diferentes aspectos del acces
 
 ## Reporte de Análisis y Dashboards
 
-El **archivo de Power BI** (`Telecomuniaciones_Henry.pbix`) contiene varios dashboards interactivos con visualizaciones para analizar las tendencias y los KPI's:
+El **archivo de Power BI** (`Telecomunicaciones_Henry.pbix`) contiene varios dashboards interactivos con visualizaciones para analizar las tendencias y los KPI's:
 
 1. **Tipos de Tecnología**: Muestra cómo diferentes tecnologías (ADSL, Cablemodem, etc.) han contribuido al acceso a Internet en diferentes años y trimestres.
 2. **KPI's**: Visualiza cómo ha cambiado la tasa de penetración, el aumento de la velocidad y comparacion entre las penetraciones de Internet en los hogares a lo largo del tiempo.
