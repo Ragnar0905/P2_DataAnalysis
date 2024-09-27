@@ -1,5 +1,7 @@
 # Análisis Exploratorio de Datos y KPI para Acceso a Internet 
- ![DALL·E 2024-09-26 08 57 52 - A modern and professional logo featuring a single 'H' for a telecommunications company  The design should incorporate subtle elements of telecommunica](https://github.com/user-attachments/assets/0679cc80-7069-48e1-988d-cb5fa920709b)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0679cc80-7069-48e1-988d-cb5fa920709b" alt="DALL·E 2024-09-26 08 57 52 - A modern and professional logo featuring a single 'H' for a telecommunications company  The design should incorporate subtle elements of telecommunica">
+</p>
 
 ## Descripcion general
 Bienvenidos este es un repositorio usado para la elboración de un estudio de una empresa de telecomunicaciones conocida en Argentina la cual nos pide realizar un **analisis exploratorio de los datos** (EDA), realizar diferentes **KPI's** para obtener información futura de sus ventas a traves de los años y de sus incrementos en ingresos, además para mayor visualización de los datos se organiza esto en una **herramienta de visualización** (PowerBI)
@@ -23,7 +25,9 @@ Bienvenidos este es un repositorio usado para la elboración de un estudio de un
     - [Instalación](#instalación)
   - [Contacto](#contacto)
 
-![Portada_telecomunicaciones](https://github.com/user-attachments/assets/8ce6ce85-a27e-4685-86c3-2ba6911ae1c8)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8ce6ce85-a27e-4685-86c3-2ba6911ae1c8" alt="Portada_telecomunicaciones">
+</p>
 
 ---
 
