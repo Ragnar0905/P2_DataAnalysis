@@ -108,6 +108,10 @@ Crecimiento Tecnología (%) = ((Accesos del Trimestre Actual - Accesos del Trime
 
 ---
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0fd625d3-10bb-471c-b3e7-ad418b65ab6f" alt="DALL·E 2024-09-27 16 09 45 - An illustration representing data visualization in Power BI">
+</p>
+
 ## Reporte de Análisis y Dashboards
 
 El **archivo de Power BI** (`Telecomunicaciones_Henry.pbix`) contiene varios dashboards interactivos con visualizaciones para analizar las tendencias y los KPI's:
