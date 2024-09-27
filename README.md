@@ -13,9 +13,9 @@ Bienvenidos este es un repositorio usado para la elboración de un estudio de un
   - [Estructura del Repositorio](#estructura-del-repositorio)
   - [Análisis Exploratorio de Datos (EDA)](#análisis-exploratorio-de-datos-eda)
   - [KPI's Propuestos](#kpis-propuestos)
-    - [KPI 1: Tasa de Penetración](#kpi-1-tasa-de-penetración)
+    - [KPI 1: Crecimiento Trimestral de Accesos por Velocidad](#kpi-1-crecimiento-trimestral-de-accesos-por-velocidad)
     - [KPI 2: Crecimiento en Acceso a Internet](#kpi-2-crecimiento-en-acceso-a-internet)
-    - [KPI 3: Aumento de Velocidad](#kpi-3-aumento-de-velocidad)
+    - [KPI 3: Crecimiento Trimestral de Accesos por Tecnología](#kpi-3-crecimiento-trimestral-de-accesos-por-tecnología)
   - [Reporte de Análisis y Dashboards](#reporte-de-análisis-y-dashboards)
   - [Conclusiones](#conclusiones)
   - [Instalación y Uso](#instalación-y-uso)
@@ -63,14 +63,16 @@ El objetivo del EDA fue obtener una comprensión general de la estructura de los
 
 Se desarrollaron tres KPI's principales para medir diferentes aspectos del acceso a Internet:
 
-### KPI 1: Tasa de Penetración
-**Objetivo**: Medir el porcentaje de hogares con acceso a Internet por año y trimestre.
+### KPI 1: Crecimiento Trimestral de Accesos por Velocidad
+**Objetivo**: Evaluar el cambio porcentual en el número de accesos a internet por diferentes rangos de velocidad a lo largo de los trimestres.
 
-**Cálculo**:
+**Cálculo**: Para cada rango de velocidad (hasta 512 kbps, entre 512 Kbps y 1 Mbps, etc.), se calculó el crecimiento porcentual trimestral:
 
-Tasa de Penetración = (Acceso a Internet / Hogares Totales) * 100
+Crecimiento Velocidad (%) = ((Accesos del Trimestre Actual - Accesos del Trimestre Anterior) / Accesos del Trimestre Anterior) * 100
 
-**Visualización**: La tasa de penetración se visualizó a través de gráficos de líneas para observar su evolución a lo largo de los años.
+**Visualización**: 
+- Se utilizó un gráfico de líneas para mostrar la evolución del crecimiento de accesos por velocidad a lo largo de los trimestres.
+- La visualización permite identificar tendencias en el uso de diferentes rangos de velocidad y proyectar el comportamiento futuro del acceso a internet en cada rango.
 
 ---
 
@@ -86,17 +88,19 @@ Crecimiento en Acceso = ((Nuevo Acceso - Acceso Actual) / Acceso Actual) * 100
 ---
 
 
-### KPI 3: Aumento de Velocidad
-**Objetivo**: Evaluar el cambio porcentual en la velocidad promedio de acceso a Internet por trimestre.
+### KPI 3: Crecimiento Trimestral de Accesos por Tecnología
+**Objetivo**: Medir el cambio porcentual trimestral en el acceso a internet por diferentes tecnologías (ADSL, Cablemodem, Fibra óptica, Wireless, y Otros).
 
 **Cálculo**:
-- Se asignaron valores ponderados a los rangos de velocidad de acceso (e.g., hasta 512 kbps, entre 1 Mbps y 6 Mbps).
-- Se calculó una **Velocidad Promedio Ponderada** utilizando los accesos por rango y su respectiva ponderación.
-- Finalmente, se midió el crecimiento porcentual de la velocidad promedio.
+- Para cada tecnología, se calculó el crecimiento trimestral porcentual en el número de accesos:
 
-Aumento de Velocidad = (Velocidad Promedio del Trimestre Actual / Velocidad Promedio del Trimestre Anterior) * 100
+Crecimiento Tecnología (%) = ((Accesos del Trimestre Actual - Accesos del Trimestre Anterior) / Accesos del Trimestre Anterior) * 100
 
-**Visualización**: Gráficos de líneas para mostrar el aumento en la velocidad promedio a lo largo de los trimestres.
+- Esto permite observar la evolución de cada tecnología y proyectar la transición hacia tecnologías más modernas.
+
+**Visualización**: 
+- Se utilizó un gráfico de líneas para visualizar el crecimiento trimestral de cada tecnología.
+- La visualización facilita la comparación del crecimiento entre las diferentes tecnologías a lo largo del tiempo y permite identificar patrones y tendencias para futuros trimestres.
 
 ---
 
@@ -105,7 +109,7 @@ Aumento de Velocidad = (Velocidad Promedio del Trimestre Actual / Velocidad Prom
 El **archivo de Power BI** (`Telecomunicaciones_Henry.pbix`) contiene varios dashboards interactivos con visualizaciones para analizar las tendencias y los KPI's:
 
 1. **Tipos de Tecnología**: Muestra cómo diferentes tecnologías (ADSL, Cablemodem, etc.) han contribuido al acceso a Internet en diferentes años y trimestres.
-2. **KPI's**: Visualiza cómo ha cambiado la tasa de penetración, el aumento de la velocidad y comparacion entre las penetraciones de Internet en los hogares a lo largo del tiempo.
+2. **KPI's**: Visualiza cómo ha cambiado la tasa de penetración, el aumento de la velocidad y el crecimiento de acceso por tecnologia en el Internet en los hogares a lo largo del tiempo.
 3. **Velocidad Promedio**: Analiza la evolución de las velocidades de acceso a Internet y su cambio porcentual por trimestre y por provincia.
 4. **Ingresos Totales**: Visualiza el incremento del precio del internet y compara que servicio ofrece mas ganancias para la empresa **Tv**, **Telefonia** e **Internet**
 
@@ -115,7 +119,7 @@ Cada visualización permite aplicar **filtros** para explorar los datos por prov
 
 ## Conclusiones
 
-1. **Aumento en la Tasa de Penetración**: La tasa de acceso a Internet ha mostrado un crecimiento sostenido a lo largo de los años, con variaciones según el trimestre.
+1. **Aumento en la Tasa de Penetración**: La tasa de acceso a Internet ha mostrado un crecimiento sostenido a lo largo de los años, con variaciones según el año.
 2. **Incremento de Velocidades Altas**: Se observó un aumento significativo en la adopción de velocidades superiores a 30 Mbps, lo que indica mejoras en la infraestructura y demanda de mayores velocidades.
 3. **Variabilidad entre Tecnologías**: Cada tecnología de acceso (e.g., ADSL, Fibra óptica) muestra tendencias diferentes en cuanto a crecimiento, pero se logra observar como la tecnologia del cablemodem y la fibra optica estan agarrando fuerzas despues de la temporada de pandemia.
 
