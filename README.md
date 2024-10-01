@@ -20,6 +20,7 @@ Bienvenidos este es un repositorio usado para la elboración de un estudio de un
     - [KPI 3: Crecimiento Trimestral de Accesos por Tecnología](#kpi-3-crecimiento-trimestral-de-accesos-por-tecnología)
   - [Reporte de Análisis y Dashboards](#reporte-de-análisis-y-dashboards)
   - [Conclusiones](#conclusiones)
+  - [Recomendaciones](#recomendaciones)
   - [Instalación y Uso](#instalación-y-uso)
     - [Requisitos](#requisitos)
     - [Instalación](#instalación)
@@ -132,6 +133,12 @@ Cada visualización permite aplicar **filtros** para explorar los datos por prov
 3. **Variabilidad entre Tecnologías**: Cada tecnología de acceso (e.g., ADSL, Fibra óptica) muestra tendencias diferentes en cuanto a crecimiento, pero se logra observar como la tecnologia del cablemodem y la fibra optica estan agarrando fuerzas despues de la temporada de pandemia.
 
 Estos hallazgos proporcionan una visión clara de las tendencias de acceso a Internet y ofrecen métricas valiosas para futuros análisis y toma de decisiones.
+
+---
+
+## Recomendaciones
+
+Los datos analizados evidencian la necesidad de ofrecer una experiencia de usuario superior. Para lograrlo, proponemos acelerar la migración a la fibra óptica, lo que se traducirá en una mejora significativa en la calidad y velocidad de los servicios de internet. Además, es fundamental diversificar la oferta de televisión por suscripción, incorporando opciones de personalización y contenidos a la carta. Al optimizar la infraestructura de red para el procesamiento de datos, podremos brindar servicios más robustos y confiables, diferenciándonos de nuestra competencia. Estas acciones permitirán fidelizar a nuestros clientes actuales y atraer a nuevos segmentos del mercado.
 
 ---
 
